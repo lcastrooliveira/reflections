@@ -8,3 +8,13 @@ How is the staging area different from the working directory and the repository?
 It's an intermediate place that it is used in order to build up logical commits.
 It helps a better organization of commits by grouping all files in a logical meaning before
 the commit is done.
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+You can use the staging area to group the chages together across multiple files. Once
+it has been done, then you can perform a logic change commit.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+It helps by giving you a chance to test a new feature/technique you're not sure it will work/ or wanna test, but
+you still want to keep the original version untouched.
