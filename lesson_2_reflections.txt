@@ -18,3 +18,19 @@ What are some situations when branches would be helpful in keeping your history 
 
 It helps by giving you a chance to test a new feature/technique you're not sure it will work/ or wanna test, but
 you still want to keep the original version untouched.
+
+How do the diagrams help you visualize the branch structure?
+
+It helps by making easier to see the commits and its parents, also, helps to
+better undertand possible unreachable commits
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+The codes are combines. It is good to represent using diagrams because it's really easy
+to see the commits that were combined when merging two branches.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Pros: it makes easier to manage versions of files where thre is no logical conflict
+
+Cons: A bug could be introduced, even if the buggy code is self contained and does not intereract
+with your work.
