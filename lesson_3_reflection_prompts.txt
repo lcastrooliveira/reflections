@@ -6,3 +6,11 @@ Why might you want to always pull changes manually rather than having Git automa
 
 Because maybe I don't want the remote changes just yet. Maybe I'm working on a feature and I don't want that external changes in the code
 interfere on what I'm doing.
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+Clones: a local copy of your repository.
+
+Forks: A copy of another repository. This newly created repository does not interact with the original where it was copied from.
+
+Branches: A sequence of alternat commits that does not interfere with the master branch. Useful for tests, and modifications on your code.
